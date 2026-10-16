@@ -1,0 +1,74 @@
+/* Container que centraliza o item na tela inteira */
+body {
+  margin: 0 auto;         /* Centraliza horizontalmente */
+  margin-top: 40px;        /* define o espaçamento superior */
+  margin-left: 80px;  /* Margem na esquerda */
+  margin-right: 80px; /* Margem na direita */
+  background-color: #4d8b9eb4; /* Cor de fundo */
+  justify-content: center;
+}
+/* O elemento com a borda redonda */
+.minha-imagem {
+  width: 150px;           /* Defina uma largura */
+  height: 150px;          /* Defina uma altura igual à largura para ficar um círculo perfeito */
+  object-fit: cover;      /* Evita que a imagem fique distorcida */
+  border: 4px solid #333333; /* Largura, Estilo (solid) e Cor */
+ border-radius: 50%;     /* Deixa a borda redonda (50% transforma um quadrado em círculo) */
+  display: block;         /* Transforma a imagem em elemento de bloco */
+  margin: 0 auto;         /* C entraliza horizontalmente */
+}
+
+p{
+  text-align: center;     /* Centraliza o texto */
+  font-size: 20px;        /* Define o tamanho da fonte */
+  color: #333333;        /* Define a cor do texto */
+}
+
+  .texto-justificado {
+  text-align: justify;
+  font-size: 18px;        /* Define o tamanho da fonte */
+  color: #333333;        /* Define a cor do texto */
+  }
+
+
+  a button {
+  background-color: transparent;
+  border: 2px solid #333333;
+  border-radius: 8px;
+  background-color: #3639c9b4; /* Cor de fundo */
+  padding: 10px 32px;  /* 16px acima/abaixo e 32px nas laterais */
+  text-align: center;     /* Centraliza o texto */
+  font-size: 15px;        /* Define o tamanho da fonte */
+  color: white;        /* Define a cor do texto */
+  }
+
+  .container {
+  display: flex;          /* Ativa o modo Flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+   gap: 6px;              /* Cria um espaço de 15px entre os botões */
+  }
+
+  a.git, a.linkedin, a.retorno {
+
+   display: flex;          /* Ativa o modo Flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  padding: 10px 32px;  /* 16px acima/abaixo e 32px nas laterais */
+   gap: 50px;              /* Cria um espaço de 15px entre os botões */
+  }
+
+  .meu-projeto {
+  object-fit: cover;      /* Evita que a imagem fique distorcida */
+  border: 4px solid #333333; /* Largura, Estilo (solid) e Cor */
+  display: block;          /* Ativa o modo Flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+   gap: 2px;              /* Cria um espaço de 15px entre os botões */
+  }
+
+  div{
+  text-align: justify;     /* Centraliza o texto */
+  font-size: 18px;        /* Define o tamanho da fonte */
+  color: #333333;        /* Define a cor do texto */
+  }
