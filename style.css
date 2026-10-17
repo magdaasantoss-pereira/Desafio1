@@ -49,7 +49,7 @@ h2{
 
    
  .container {
-    min-height: 100vh;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +89,7 @@ h2{
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center;     /* Centraliza verticalmente */
   padding: 10px 32px;  /* 16px acima/abaixo e 32px nas laterais */
-  gap: 50px;              /* Cria um espaço de 15px entre os botões */
+  gap: 10px;              /* Cria um espaço de 15px entre os botões */
   flex-direction: row;
   }
   a.retorno {
@@ -98,7 +98,7 @@ h2{
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center;     /* Centraliza verticalmente */
   padding: 10px 32px;  /* 16px acima/abaixo e 32px nas laterais */
-  gap: 50px;              /* Cria um espaço de 15px entre os botões */
+  gap: 10px;              /* Cria um espaço de 15px entre os botões */
 
   }
 
