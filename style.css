@@ -1,4 +1,10 @@
 /* Container que centraliza o item na tela inteira */
+/* Aplica o tamanho correto aos elementos */
+* {
+    box-sizing: border-box;
+}
+
+
 body {
   margin: 0 auto;         /* Centraliza horizontalmente */
   margin-top: 40px;        /* define o espaçamento superior */
@@ -7,7 +13,52 @@ body {
   background-color: #4d8b9eb4; /* Cor de fundo */
   justify-content: center;
   font-family: 'Courier New', monospace;
+  line-height: 1.5;
 }
+/* Área principal do site */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Imagens que se adaptam à tela */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    .container {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+/* Tablets e telas intermediárias */
+@media (min-width: 601px) and (max-width: 900px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+/* Computadores */
+@media (min-width: 901px) {
+    .container {
+        padding: 30px;
+    }
+}
+
 /* O elemento com a borda redonda */
 .minha-imagem {
   width: 150px;           /* Defina uma largura */
@@ -48,7 +99,7 @@ h2{
 }
 
    
- .container {
+ .inicio {
     
     display: flex;
     flex-direction: column;
@@ -57,7 +108,7 @@ h2{
     text-align: center;
 }
 
-.container a {
+.inicio a {
     margin: 20px 0;
     padding: 15px 25px;
     width: 250px;
@@ -70,7 +121,7 @@ h2{
     text-align: justify; 
 }
 
-.container a:hover {
+.inicio a:hover {
     background-color: #083b47;
     color: #95d8e9;
     cursor: pointer;
@@ -128,6 +179,8 @@ h2{
   height: 250px;          /* Defina uma altura igual à largura para ficar um círculo perfeito */
   background-color: #9cc9d6;
   border: 1px solid #95d8e9;
+
+
  
     }
   
