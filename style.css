@@ -6,7 +6,7 @@
 
 
 body {
- margin: 0;
+ 
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -20,7 +20,7 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
 }
 
 /* Imagens que se adaptam à tela */
@@ -48,14 +48,14 @@ img {
 /* Tablets e telas intermediárias */
 @media (min-width: 601px) and (max-width: 00px) {
     .container {
-        padding: 20px;
+        padding: 40px;
     }
 }
 
 /* Computadores */
 @media (min-width: 901px) {
     .container {
-        padding: 40px;
+        padding: 60px;
     }
 }
 
@@ -111,7 +111,7 @@ h2{
 .inicio a {
     margin: 20px 0;
     padding: 15px 25px;
-    width: 250px;
+    width: 350px;
     background-color: #9cc9d6;
     border: 1px solid #95d8e9;
     border-radius: 8px;
