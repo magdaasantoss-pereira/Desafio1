@@ -6,7 +6,7 @@
 
 
 body {
-  margin: 0 40px;;
+  margin: 0 10px;
   padding: 0;
   background-color: #4d8b9eb4; /* Cor de fundo */
   justify-content: center;
@@ -17,7 +17,7 @@ body {
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 10px;
     padding: 0px;
 }
 
@@ -86,11 +86,11 @@ h2{
   font-size: 20px;        /* Define o tamanho da fonte */
   color: #083b47;        /* Define a cor do texto */
   padding: 5px;             /* Espaço entre o texto e a borda da caixa */
-  margin: 10px 0;
+  margin: 0 10px;
   }
 
   .texto-justificado {
-  text-align: justify;
+  text-align: center;
   font-size: 15px;        /* Define o tamanho da fonte */
   color: #083b47;        /* Define a cor do texto */
   background-color: #95d8e9; /* Cor de fundo (Verde) */
@@ -118,7 +118,7 @@ h2{
     color: #083b47;
     text-decoration: none;
     transition: 0.3s;
-    text-align: justify; 
+    text-align: center;     /* Centraliza o texto */
 }
 
 .inicio a:hover {
