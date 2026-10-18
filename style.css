@@ -18,7 +18,7 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
 }
 
 /* Imagens que se adaptam à tela */
@@ -91,10 +91,9 @@ h2{
 
   .texto-justificado {
   text-align: justify;
-  font-size: 18px;        /* Define o tamanho da fonte */
+  font-size: 15px;        /* Define o tamanho da fonte */
   color: #083b47;        /* Define a cor do texto */
   background-color: #95d8e9; /* Cor de fundo (Verde) */
-  padding: 10px;             /* Espaço entre o texto e a borda da caixa */
   border-radius: 8px;        /* Opcional: deixa as bordas arredondadas */
 }
 
@@ -111,6 +110,7 @@ h2{
 .inicio a {
     margin: 10px 0;
     padding: 10px 32px;
+    width: 350px; 
    font-size: 20px; 
     background-color: #9cc9d6;
     border: 1px solid #95d8e9;
@@ -140,7 +140,6 @@ h2{
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center;     /* Centraliza verticalmente */
   padding: 10px 32px;  /* 16px acima/abaixo e 32px nas laterais */
-               /* Cria um espaço de 15px entre os botões */
   flex-direction: row;
   }
   a.retorno {
@@ -157,27 +156,27 @@ h2{
   display: flex;          /* Ativa o modo Flexbox */
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center;     /* Centraliza verticalmente */
-  font-size: 20px;
-  padding: 5px 0;  /* 16px acimae 32px nas laterais */ 
+  font-size: 16px;
   text-decoration: underline;
-   background-color: #9cc9d6;
-    border: 1px solid #95d8e9;
-    border-radius: 8px;
-     margin: 0 32px;
-   
-    
- 
-  
+  background-color: #9cc9d6;
+  border: 1px solid #95d8e9;
+  border-radius: 8px;
+   width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;   
   }
   div.meu-projeto {
   display: flex;          /* Ativa o modo Flexbox */
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center;     /* Centraliza verticalmente */
-  font-size: 20px;
+  font-size: 16px;
   background-color: #b2d0d8;
-    border: 1px solid #95d8e9;
-    border-radius: 8px;
-      margin: 0 32px;
-  
+  border: 1px solid #95d8e9;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;  
     }
   
