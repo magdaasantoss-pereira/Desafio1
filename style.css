@@ -133,7 +133,7 @@ h2{
     align-items: center;
 }
 
-  a.git, a.linkedin {
+  a.git, a.linkedin  {
 
   display: flex;          /* Ativa o modo Flexbox */
   justify-content: center; /* Centraliza horizontalmente */
