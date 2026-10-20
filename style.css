@@ -1,23 +1,22 @@
-/* Container que centraliza o item na tela inteira */
-/* Aplica o tamanho correto aos elementos */
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura e altura totais do elemento */
 }
 
 
 body {
   
-  padding: 0;
+  padding: 0; /* Remove o padding padrão do body */
+  margin: 0; /* Remove a margem padrão do body */
   background-color: #4d8b9eb4; /* Cor de fundo */
-  justify-content: center;
-  font-family: 'Courier New', monospace;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  font-family: 'Courier New', monospace; /* Define a fonte do texto */
 
 }
 /* Área principal do site */
 .container {
     width: 100%;
     max-width: 1200px;
-    
     padding: 0px;
 }
 
@@ -25,7 +24,6 @@ body {
 img {
     max-width: 100%;
     height: auto;
-  
 }
 
 /* Celulares */
@@ -57,7 +55,7 @@ img {
     }
 }
 
-/* O elemento com a borda redonda */
+/* Imagem Principal com a borda redonda */
 .minha-imagem {
   width: 150px;          /* Define a largura */
   height: 150px;         /* Define a altura idêntica para ser um quadrado */
@@ -67,37 +65,38 @@ img {
   display: block;         /* Transforma a imagem em elemento de bloco */
   margin: 0 auto;         /* C entraliza horizontalmente */
 }
+/* Estilização dos títulos e parágrafos */
 h1{
   text-align: center;     /* Centraliza o texto */
   font-size: 20px;        /* Define o tamanho da fonte */
   color: #083b47;        /* Define a cor do texto */
-  font-weight: bold;
+  font-weight: bold;       /* Define o peso da fonte como negrito */
 }
-
+/* Estilização dos títulos e parágrafos */
 h2{
   text-align: center;     /* Centraliza o texto */
   font-size: 20px;        /* Define o tamanho da fonte */
   color: #083b47;        /* Define a cor do texto */
   
 }
-
+/* Estilização dos títulos e parágrafos */
  p{
   text-align: center;     /* Centraliza o texto */
   font-size: 20px;        /* Define o tamanho da fonte */
   color: #083b47;        /* Define a cor do texto */
   padding: 5px;             /* Espaço entre o texto e a borda da caixa */
-  margin: 0 10px;
+  margin: 0 10px;           /* Espaço entre a caixa e outros elementos */
   }
-
+/* Estilização dos títulos e parágrafos */
   .texto-justificado {
-  text-align: center;
+  text-align: center; /* Centraliza o texto */
   font-size: 15px;        /* Define o tamanho da fonte */
   color: #083b47;        /* Define a cor do texto */
   background-color: #95d8e9; /* Cor de fundo (Verde) */
   border-radius: 8px;        /* Opcional: deixa as bordas arredondadas */
 }
 
-   
+   /* Estilização dos links */
  .inicio {
     
     display: flex;
@@ -151,7 +150,7 @@ h2{
   gap: 10px;              /* Cria um espaço de 15px entre os botões */
 
   }
-
+  /* Estilização da legenda */
   div.legenda {
   display: flex;          /* Ativa o modo Flexbox */
   justify-content: center; /* Centraliza horizontalmente */
@@ -166,6 +165,7 @@ h2{
   margin: 0 auto;
   padding: 30px;   
   }
+  /* Estilização do container do projeto */
   div.meu-projeto {
   display: flex;          /* Ativa o modo Flexbox */
   justify-content: center; /* Centraliza horizontalmente */
